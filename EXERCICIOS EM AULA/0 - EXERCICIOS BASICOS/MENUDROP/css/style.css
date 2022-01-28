@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#caixaMenu{
+    width: 150px;
+    height: 200px;
+    background-color: #000000;
+}
+
+#menu{
+    width: inherit;
+    height: inherit;
+    
+}
+
+.menuItem{
+    list-style: none;
+    width: inherit;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.menuItem:hover{
+    background-color: chartreuse;
+    color: #000000;
+    cursor: pointer;
+}
+
+.menuItem:hover > #caixaSubMenu{
+/*    display: block;*/
+    /*Permite manipular a transparencia do elemento*/
+    opacity: 1;
+    /*Permite aparecer com o elemento que foi oculto*/
+    visibility: visible;
+    transition: 1s;
+    margin-left: 150px;
+}
+
+#caixaSubMenu{
+    width: 150px;
+    height: 150px;
+    background-color:chartreuse;
+    margin-top: -30px;
+/*    display: none;*/
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+

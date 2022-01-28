@@ -1,0 +1,41 @@
+textarea{
+    resize: none; /*Desabilita a opção de redimensionar a textarea*/
+}
+
+input{
+     outline: none; /*Desabilita a borda de marcação da caixa 
+    quando clicamos*/
+}
+
+#formContatos{
+    width: 600px;
+    height: 500px;
+    border: solid 1px #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destaque{
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
